@@ -1,0 +1,1737 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Tech Innovators Inc.",
+      "industry": "Technology",
+      "location": "San Francisco, CA",
+      "logo": "/company1.png",
+      "about": {
+        "description": "Tech Innovators Inc. is a leading provider of cutting-edge software solutions for businesses worldwide.",
+        "mission": "Empower organizations through innovative technology.",
+        "coreValues": ["Innovation", "Integrity", "Customer Focus"]
+      },
+      "jobs": [
+        {
+          "id": 101,
+          "title": "Frontend Developer",
+          "category": "Engineering",
+          "job type": "Full-time",
+          "location": "Remote",
+          "salary": "$120,000 - $140,000",
+          "description": "Build and maintain web applications.",
+          "requirements": [
+    "Bachelor's degree in Computer Science or related field",
+    "2+ years experience with React.js",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"
+        },
+        
+        {
+          "id": 102,
+          "title": "UI/UX Designer",
+          "category": "Design",
+          "job type": "Contract",
+          "location": "San Francisco, CA",
+          "salary": "$80,000 - $100,000",
+          "description": "Design user interfaces and experiences.",
+          "requirements": [
+    "Bachelor's degree in Computer Science or related field",
+    "2+ years experience with React.js",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"
+        }
+      ]
+    },
+    
+    {
+      "id": 2,
+      "name": "HealthCare Plus",
+      "industry": "Healthcare",
+      "location": "New York, NY",
+      "logo": "/company2.png",
+      "about": {
+        "description": "HealthCare Plus delivers quality healthcare services and patient support.",
+        "mission": "Improve lives through compassionate healthcare.",
+        "coreValues": ["Compassion", "Excellence", "Teamwork"]
+      },
+      "jobs": [
+        {
+          "id": 201,
+          "title": "Registered Nurse",
+          "category": "Medical",
+          "job type": "Full-time",
+          "location": "New York, NY",
+          "salary": "$70,000 - $90,000",
+          "description": "Provide patient care and support.",
+          "requirements": [
+    "Bachelor's degree in Nursing or related field",
+    "2+ years experience with patient-care",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"
+        },
+        {
+          "id": 202,
+          "title": "Medical Receptionist",
+          "category": "Administration",
+          "type": "Part-time",
+          "location": "New York, NY",
+          "salary": "$35,000 - $45,000",
+          "description": "Manage front desk and appointments.",
+          "requirements": [
+    "Bachelor's degree in Administration or related field",
+    "2+ years experience in front desk operations",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"
+        }
+      ]
+    },
+    
+    {
+      "id": 3,
+      "name": "Finance Experts LLC",
+      "industry": "Finance",
+      "location": "Chicago, IL",
+      "logo": "/company3.png",
+      "about": {
+        "description": "Finance Experts LLC offers financial consulting and management services.",
+        "mission": "Deliver financial clarity and growth for our clients.",
+        "coreValues": ["Trust", "Expertise", "Growth"]
+      },
+      "jobs": [
+        {
+          "id": 301,
+          "title": "Accountant",
+          "category": "Accounting",
+          "job type": "Full-time",
+          "location": "Chicago, IL",
+          "salary": "$60,000 - $80,000",
+          "description": "Manage financial records and reports.",
+          "requirements": [
+    "Bachelor's degree in Computer Science or related field",
+    "2+ years experience with accounting softwares",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"
+        },
+        {
+          "id": 302,
+          "title": "Financial Analyst",
+          "category": "Analysis",
+          "job type": "Full-time",
+          "location": "Remote",
+          "salary": "$90,000 - $110,000",
+          "description": "Analyze financial data and trends.",
+          "requirements": [
+    "Bachelor's degree in Computer Science or related field",
+    "2+ years experience with software applications",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"
+        }
+      ]
+    },
+    
+    {
+      "id": 4,
+      "name": "Green Energy Solutions",
+      "industry": "Energy",
+      "location": "Austin, TX",
+      "logo": "/company4.png",
+      "about": {
+        "description": "Green Energy Solutions pioneers sustainable energy projects.",
+        "mission": "Accelerate the transition to renewable energy.",
+        "coreValues": ["Sustainability", "Innovation", "Responsibility"]
+      },
+      "jobs": [
+        {"id": 401, "title": "Solar Engineer", "category": "Engineering", "job type": "Full-time", "location": "Austin, TX", "salary": "$100,000 - $120,000", "description": "Design and implement solar energy systems.", "requirements": [
+    "Bachelor's degree in the engineering field",
+    "2+ years experience with autocad and solar design",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"},
+        {"id": 402, "title": "Project Manager", "category": "Management", "job type": "Full-time", "location": "Austin, TX", "salary": "$90,000 - $110,000", "description": "Lead renewable energy projects.", "requirements": [
+    "Bachelor's degree in any management field",
+    "2+ years experience in project management field",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"}
+      ]
+    },
+    
+    {
+      "id": 5,
+      "name": "EduSmart",
+      "industry": "Education",
+      "location": "Boston, MA",
+      "logo": "/company5.png",
+      "about": {
+        "description": "EduSmart creates innovative educational solutions for schools.",
+        "mission": "Empower learners through smart education.",
+        "coreValues": ["Empowerment", "Creativity", "Collaboration"]
+      },
+      "jobs": [
+        {"id": 501, "title": "Math Teacher", "category": "Teaching", "job type": "Full-time", "location": "Boston, MA", "salary": "$50,000 - $70,000", "description": "Teach mathematics to high school students.", "requirements": [
+    "Bachelor's degree in Education or related field",
+    "5+ years experience in teaching",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"},
+        {"id": 502, "title": "Curriculum Developer", "category": "Development", "job type": "Contract", "location": "Remote", "salary": "$60,000 - $80,000", "description": "Develop educational materials.", "requirements": [
+    "Bachelor's degree in Computer Science or related field",
+    "5+ years experience with curriculum design",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"}
+      ]
+    },
+    
+    {
+      "id": 6,
+      "name": "Foodies United",
+      "industry": "Hospitality",
+      "location": "Los Angeles, CA",
+      "logo": "/company6.png",
+      "about": {
+        "description": "Foodies United is a chain of restaurants focused on culinary excellence.",
+        "mission": "Deliver memorable dining experiences.",
+        "coreValues": ["Quality", "Service", "Passion"]
+      },
+      "jobs": [
+        {"id": 601, "title": "Chef", "category": "Culinary", "job type": "Full-time", "location": "Los Angeles, CA", "salary": "$45,000 - $65,000", "description": "Prepare and design menus.", "requirements": [
+    "Bachelor's degree in Cooking or related field",
+    "7+ years experience with cooking",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"},
+        {"id": 602, "title": "Restaurant Manager", "category": "Management", "job type": "Full-time", "location": "Los Angeles, CA", "salary": "$55,000 - $75,000", "description": "Oversee restaurant operations.", "requirements": [
+    "Bachelor's degree in Hospitality or related field",
+    "2+ years experience with Restaurant management",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"}
+      ]
+    },
+    
+    {
+      "id": 7,
+      "name": "AutoMakers Group",
+      "industry": "Automotive",
+      "location": "Detroit, MI",
+      "logo": "/company7.png",
+      "about": {
+        "description": "AutoMakers Group manufactures and sells vehicles and automotive parts.",
+        "mission": "Drive innovation in the automotive industry.",
+        "coreValues": ["Innovation", "Safety", "Performance"]
+      },
+      "jobs": [
+        {"id": 701, "title": "Mechanical Engineer", "category": "Engineering", "job type": "Full-time", "location": "Detroit, MI", "salary": "$80,000 - $100,000", "description": "Design automotive components.", "requirements": [
+    "Bachelor's degree in Automobile or Mechanical Engineering",
+    "2+ years experience in the engineering field",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"},
+        {"id": 702, "title": "Sales Consultant", "category": "Sales", "job type": "Full-time", "location": "Detroit, MI", "salary": "$40,000 - $60,000", "description": "Sell vehicles and services.", "requirements": [
+    "Bachelor's degree in the marketing and sales field",
+    "2+ years experience in the sales sector",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"}
+      ]
+    },
+    
+    {
+      "id": 8,
+      "name": "MediaWorks",
+      "industry": "Media",
+      "location": "Seattle, WA",
+      "logo": "/company8.png",
+      "about": {
+        "description": "MediaWorks produces multimedia content for global audiences.",
+        "mission": "Inspire and inform through creative media.",
+        "coreValues": ["Creativity", "Integrity", "Impact"]
+      },
+      "jobs": [
+        {"id": 801, "title": "Content Writer", "category": "Writing", "job type": "Part-time", "location": "Remote", "salary": "$30,000 - $50,000", "description": "Write articles and blog posts.", "requirements": [
+    "Bachelor's degree in any field",
+    "2+ years experience in content writing",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"},
+        {"id": 802, "title": "Video Editor", "category": "Editing", "job type": "Contract", "location": "Seattle, WA", "salary": "$40,000 - $60,000", "description": "Edit video content for media campaigns.", "requirements": [
+    "Bachelor's degree in any field",
+    "2+ years experience in video editing",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"}
+      ]
+    },
+    
+    {
+      "id": 9,
+      "name": "RetailPro",
+      "industry": "Retail",
+      "location": "Dallas, TX",
+      "logo": "/company9.png",
+      "about": {
+        "description": "RetailPro operates a network of retail stores across the US.",
+        "mission": "Deliver quality products and customer service.",
+        "coreValues": ["Service", "Quality", "Efficiency"]
+      },
+      "jobs": [
+        {"id": 901, "title": "Store Manager", "category": "Management", "job type": "Full-time", "location": "Dallas, TX", "salary": "$50,000 - $70,000", "description": "Manage retail store operations.", "requirements": [
+    "Bachelor's degree in any management field",
+    "5+ years experience with store management and processes",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-line"},
+        {"id": 902, "title": "Cashier", "category": "Customer Service", "job type": "Part-time", "location": "Dallas, TX", "salary": "$20,000 - $30,000", "description": "Handle customer transactions.", "requirements": [
+    "Bachelor's degree in any field",
+    "2+ years experience in front desk operations",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"}
+      ]
+    },
+    
+    {
+      "id": 10,
+      "name": "BuildRight Construction",
+      "industry": "Construction",
+      "location": "Denver, CO",
+      "logo": "/company10.png",
+      "about": {
+        "description": "BuildRight Construction specializes in commercial and residential building projects.",
+        "mission": "Build safe and sustainable structures.",
+        "coreValues": ["Safety", "Quality", "Sustainability"]
+      },
+      "jobs": [
+        {"id": 1001, "title": "Site Supervisor", "category": "Supervision", "job type": "Full-time", "location": "Denver, CO", "salary": "$70,000 - $90,000", "description": "Supervise construction sites.", "requirements": [
+    "Bachelor's degree in Building or related field",
+    "2+ years experience with autocad",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"},
+        {"id": 1002, "title": "Civil Engineer", "category": "Engineering", "job type": "Full-time", "location": "Denver, CO", "salary": "$80,000 - $100,000", "description": "Design and oversee construction projects.", "requirements": [
+    "Bachelor's degree in Civil Engineering or related field",
+    "5+ years experience in the civil construction field",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"}
+      ]
+    },
+    
+    {
+      "id": 11,
+      "name": "TravelEase",
+      "industry": "Travel",
+      "location": "Miami, FL",
+      "logo": "/company11.png",
+      "about": {
+        "description": "TravelEase provides travel planning and booking services.",
+        "mission": "Make travel easy and enjoyable for everyone.",
+        "coreValues": ["Convenience", "Service", "Reliability"]
+      },
+      "jobs": [
+        {"id": 1101, "title": "Travel Agent", "category": "Agent", "job type": "Full-time", "location": "Miami, FL", "salary": "$35,000 - $55,000", "description": "Plan and book travel arrangements.", "requirements": [
+    "Bachelor's degree in Tourism or related field",
+    "2+ years experience in travelling and tourism",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"},
+        {"id": 1102, "title": "Marketing Specialist", "category": "Marketing", "job type": "Full-time", "location": "Miami, FL", "salary": "$45,000 - $65,000", "description": "Promote travel packages.", "requirements": [
+    "Bachelor's degree in Marketing or related field",
+    "3+ years experience in marketing",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"}
+      ]
+    },
+    
+    {
+      "id": 12,
+      "name": "SecureIT",
+      "industry": "Cybersecurity",
+      "location": "San Jose, CA",
+      "logo": "/company12.png",
+      "about": {
+        "description": "SecureIT protects organizations from cyber threats.",
+        "mission": "Ensure digital safety for all clients.",
+        "coreValues": ["Security", "Trust", "Expertise"]
+      },
+      "jobs": [
+        {"id": 1201, "title": "Security Analyst", "category": "Analysis", "job type": "Full-time", "location": "San Jose, CA", "salary": "$90,000 - $120,000", "description": "Monitor and analyze security threats.", "requirements": [
+    "Bachelor's degree in Computer Science or related field",
+    "2+ years experience in cyber security",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"},
+        {"id": 1202, "title": "Penetration Tester", "category": "Testing", "job type": "Contract", "location": "Remote", "salary": "$100,000 - $130,000", "description": "Test system vulnerabilities.", "requirements": [
+    "Bachelor's degree in Computer Science or related field",
+    "2+ years experience in cyber security",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"}
+    ]
+    },
+    
+    {
+      "id": 13,
+      "name": "CloudNet Solutions",
+      "industry": "Technology",
+      "location": "San Francisco, CA",
+      "logo": "/company13.png",
+      "about": {
+        "description": "CloudNet Solutions delivers scalable cloud computing services.",
+        "mission": "Transform businesses with cloud technology.",
+        "coreValues": ["Scalability", "Innovation", "Support"]
+      },
+      "jobs": [
+        {"id": 1301, "title": "Backend Developer", "category": "Engineering", "job type": "Full-time", "location": "Remote", "salary": "$110,000 - $130,000", "description": "Develop server-side logic and APIs.", "requirements": [
+    "Bachelor's degree in Computer Science or related field",
+    "2+ years experience with node.js",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"},
+        {"id": 1302, "title": "DevOps Engineer", "category": "Engineering", "job type": "Full-time", "location": "San Francisco, CA", "salary": "$120,000 - $140,000", "description": "Manage cloud infrastructure and deployments.", "requirements": [
+    "Bachelor's degree in Computer Science or related field",
+    "2+ years experience with React.js",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"}
+      ]
+    },
+   
+    {
+      "id": 14,
+      "name": "WellnessCare",
+      "industry": "Healthcare",
+      "location": "New York, NY",
+      "logo": "/company14.png",
+      "about": {
+        "description": "WellnessCare offers comprehensive health and wellness services.",
+        "mission": "Promote holistic health for all.",
+        "coreValues": ["Wellness", "Compassion", "Professionalism"]
+      },
+      "jobs": [
+        {"id": 1401, "title": "Physician Assistant", "category": "Medical", "job type": "Full-time", "location": "New York, NY", "salary": "$80,000 - $100,000", "description": "Assist physicians in patient care.", "requirements": [
+    "Bachelor's degree in Physiotherapy or related field",
+    "2+ years experience with React.js",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"},
+        {"id": 1402, "title": "Lab Technician", "category": "Medical", "job type": "Part-time", "location": "New York, NY", "salary": "$40,000 - $55,000", "description": "Conduct lab tests and procedures.", "requirements": [
+    "Bachelor's degree in Laboratory Science or related field",
+    "2+ years experience in Medical Laboratory",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"}
+      ]
+    },
+   
+    {
+      "id": 15,
+      "name": "MoneyMatters",
+      "industry": "Finance",
+      "location": "Chicago, IL",
+      "logo": "/company15.png",
+      "about": {
+        "description": "MoneyMatters provides financial planning and payroll services.",
+        "mission": "Help clients achieve financial stability.",
+        "coreValues": ["Integrity", "Accuracy", "Support"]
+      },
+      "jobs": [
+        {"id": 1501, "title": "Tax Consultant", "category": "Accounting", "job type": "Contract", "location": "Chicago, IL", "salary": "$70,000 - $90,000", "description": "Advise clients on tax matters.", "requirements": [
+    "Bachelor's degree in Taxation or related field",
+    "2+ years experience in the taxation field",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"},
+        {"id": 1502, "title": "Payroll Specialist", "category": "Administration", "job type": "Full-time", "location": "Remote", "salary": "$50,000 - $70,000", "description": "Manage payroll and employee records.", "requirements": [
+    "Bachelor's degree in Accounting or related field",
+    "5+ years experience in acconting",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"}
+      ]
+    },
+    
+    {
+      "id": 16,
+      "name": "EduBridge",
+      "industry": "Education",
+      "location": "Boston, MA",
+      "logo": "/company16.png",
+      "about": {
+        "description": "EduBridge connects students and educators with modern learning tools.",
+        "mission": "Bridge gaps in education through technology.",
+        "coreValues": ["Access", "Innovation", "Growth"]
+      },
+      "jobs": [
+        {"id": 1601, "title": "Science Teacher", "category": "Teaching", "job type": "Full-time", "location": "Boston, MA", "salary": "$55,000 - $75,000", "description": "Teach science subjects to students.", "requirements": [
+    "Bachelor's degree in education or related field",
+    "5+ years experience with teaching in science",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"},
+        {"id": 1602, "title": "School Counselor", "category": "Administration", "job type": "Full-time", "location": "Boston, MA", "salary": "$60,000 - $80,000", "description": "Provide guidance and counseling to students.", "requirements": [
+    "Bachelor's degree in Counseling or related field",
+    "2+ years experience in guidance and counseling",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"}
+      ]
+    },
+    
+    {
+      "id": 17,
+      "name": "ShopEase",
+      "industry": "Retail",
+      "location": "Dallas, TX",
+      "logo": "/company17.png",
+      "about": {
+        "description": "ShopEase is a retail company focused on customer satisfaction.",
+        "mission": "Make shopping easy and enjoyable.",
+        "coreValues": ["Convenience", "Service", "Value"]
+      },
+      "jobs": [
+        {"id": 1701, "title": "Sales Associate", "category": "Sales", "job type": "Part-time", "location": "Dallas, TX", "salary": "$25,000 - $35,000", "description": "Assist customers and process sales.", "requirements": [
+    "Bachelor's degree in marketing or related field",
+    "2+ years experience in marketing",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"},
+        {"id": 1702, "title": "Inventory Manager", "category": "Management", "job type": "Full-time", "location": "Dallas, TX", "salary": "$55,000 - $75,000", "description": "Manage store inventory and logistics.", "requirements": [
+    "Bachelor's degree in business management",
+    "2+ years experience with inventory management",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"}
+      ]
+    },
+    {
+      "id": 18,
+      "name": "TasteBuds",
+      "industry": "Hospitality",
+      "location": "Los Angeles, CA",
+      "logo": "/company18.png",
+      "about": {
+        "description": "TasteBuds offers catering and event planning services.",
+        "mission": "Create unforgettable culinary experiences.",
+        "coreValues": ["Creativity", "Quality", "Service"]
+      },
+      "jobs": [
+        {"id": 1801, "title": "Sous Chef", "category": "Culinary", "job type": "Full-time", "location": "Los Angeles, CA", "salary": "$50,000 - $70,000", "description": "Assist head chef in kitchen operations.", "requirements": [
+    "Bachelor's degree in Cooking or realted ",
+    "2+ years experience with cooking",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"},
+        {"id": 1802, "title": "Event Coordinator", "category": "Management", "job type": "Contract", "location": "Los Angeles, CA", "salary": "$60,000 - $80,000", "description": "Plan and coordinate events.", "requirements": [
+    "Bachelor's degree in Hospitality or related field",
+    "2+ years experience with hospitality management",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"}
+      ]
+    },
+    
+    {
+      "id": 19,
+      "name": "AutoParts Direct",
+      "industry": "Automotive",
+      "location": "Detroit, MI",
+      "logo": "/company19.png",
+      "about": {
+        "description": "AutoParts Direct supplies automotive parts and accessories.",
+        "mission": "Provide reliable auto parts to customers.",
+        "coreValues": ["Reliability", "Service", "Efficiency"]
+      },
+      "jobs": [
+        {"id": 1901, "title": "Parts Specialist", "category": "Sales", "job type": "Full-time", "location": "Detroit, MI", "salary": "$40,000 - $55,000", "description": "Sell and manage automotive parts." ,"requirements": [
+    "Bachelor's degree in Computer Automobile or Mechanical Engineering",
+    "5+ years experience in engineering",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"},
+        {"id": 1902, "title": "Warehouse Supervisor", "category": "Supervision", "job type": "Full-time", "location": "Detroit, MI", "salary": "$60,000 - $80,000", "description": "Oversee warehouse operations.", "requirements": [
+    "Bachelor's degree in any field",
+    "2+ years experience with warehouse management",
+    "Strong problem-solving skills" 
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"}
+      ]
+    },
+    
+    {
+      "id": 20,
+      "name": "BuildPro",
+      "industry": "Construction",
+      "location": "Denver, CO",
+      "logo": "/company20.png",
+      "about": {
+        "description": "BuildPro specializes in large-scale construction projects.",
+        "mission": "Deliver excellence in construction.",
+        "coreValues": ["Excellence", "Safety", "Teamwork"]
+      },
+      "jobs": [
+        {"id": 2001, "title": "Project Engineer", "category": "Engineering", "job type": "Full-time", "location": "Denver, CO", "salary": "$85,000 - $105,000", "description": "Manage construction projects and teams.", "requirements": [
+    "Bachelor's degree in any Engineering field",
+    "2+ years experience in project engineering",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"},
+        {"id": 2002, "title": "Safety Officer", "category": "Supervision", "job type": "Full-time", "location": "Denver, CO", "salary": "$70,000 - $90,000", "description": "Ensure safety compliance on sites.", "requirements": [
+    "Bachelor's degree in Safety Management or related field",
+    "2+ years experience with safety regulations",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"}
+      ]
+    },
+    {
+      "id": 21,
+      "name": "TravelPro",
+      "industry": "Travel",
+      "location": "Miami, FL",
+      "logo": "/company21.png",
+      "about": {
+        "description": "TravelPro offers guided tours and travel coordination services.",
+        "mission": "Make travel adventures accessible to all.",
+        "coreValues": ["Adventure", "Service", "Trust"]
+      },
+      "jobs": [
+        {"id": 2101, "title": "Tour Guide", "category": "Agent", "job type": "Part-time", "location": "Miami, FL", "salary": "$30,000 - $45,000", "description": "Lead tours and assist travelers.", "requirements": [
+    "Bachelor's degree in any field",
+    "3+ years experience with tourism qnd travel",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site"},
+        {"id": 2102, "title": "Travel Coordinator", "category": "Administration", "job type": "Full-time", "location": "Miami, FL", "salary": "$50,000 - $70,000", "description": "Coordinate travel arrangements and bookings.", "requirements": [
+    "Bachelor's degree in Tourism or related field",
+    "2+ years experience in travel coordination",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"}
+      ]
+    },
+  
+    {
+      "id": 22,
+      "name": "SmartLogistics",
+      "industry": "Logistics",
+      "location": "Chicago, IL",
+      "logo": "/company22.png",
+      "about": {
+        "description": "SmartLogistics provides efficient supply chain solutions.",
+        "mission": "Optimize logistics for modern businesses.",
+        "coreValues": ["Efficiency", "Reliability", "Innovation"]
+      },
+      "jobs": [
+        { "id": 2201, "title": "Logistics Coordinator", "category": "Operations", "job type": "Full-time", "location": "Chicago, IL", "salary": "$55,000 - $70,000", "description": "Coordinate shipments and deliveries." ,"requirements": [
+    "Bachelor's degree in Logistics or related field",
+    "2+ years experience in logistics management",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"},
+        { "id": 2202, "title": "Warehouse Manager", "category": "Management", "job type": "Full-time", "location": "Chicago, IL", "salary": "$65,000 - $85,000", "description": "Manage warehouse operations.", "requirements": [
+    "Bachelor's degree in warehouse management or related field",
+    "2+ years experience with warehouse operations",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"}
+      ]
+    }, 
+    {
+      "id": 23,
+      "name": "BrightTech",
+      "industry": "Technology",
+      "location": "San Francisco, CA",
+      "logo": "/company23.png",
+      "about": {
+        "description": "BrightTech develops innovative software products.",
+        "mission": "Empower users with smart technology.",
+        "coreValues": ["Innovation", "Quality", "Support"]
+      },
+      "jobs": [
+        { "id": 2301, "title": "Software Engineer", "category": "Engineering", "job type": "Full-time", "location": "Remote", "salary": "$110,000 - $130,000", "description": "Develop scalable software solutions.", "requirements": [
+    "Bachelor's degree in Computer Engineering or related field",
+    "2+ years experience in computer engineering industry",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" },
+        { "id": 2302, "title": "QA Tester", "category": "Testing", "job type": "Contract", "location": "San Francisco, CA", "salary": "$70,000 - $90,000", "description": "Test and ensure software quality.","requirements": [
+    "Bachelor's degree in Computer Science or related field",
+    "2+ years experience with React.js",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" }
+      ]
+    },
+    
+    {
+      "id": 24,
+      "name": "CareFirst",
+      "industry": "Healthcare",
+      "location": "Boston, MA",
+      "logo": "/company24.png",
+      "about": {
+        "description": "CareFirst offers patient-centered healthcare services.",
+        "mission": "Put patients first in every decision.",
+        "coreValues": ["Compassion", "Integrity", "Excellence"]
+      },
+      "jobs": [
+        { "id": 2401, "title": "Nurse Practitioner", "category": "Medical", "job type": "Full-time", "location": "Boston, MA", "salary": "$90,000 - $110,000", "description": "Provide advanced nursing care.", "requirements": [
+    "Bachelor's degree in nursing or related field",
+    "2+ years experience with nursing",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site" },
+        { "id": 2402, "title": "Medical Assistant", "category": "Support", "job type": "Part-time", "location": "Boston, MA", "salary": "$35,000 - $45,000", "description": "Assist with patient care.", "requirements": [
+    "Bachelor's degree in Medicine or related field",
+    "2+ years experience with medical assistance",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site" }
+      ]
+    },
+    
+    {
+      "id": 25,
+      "name": "RetailHub",
+      "industry": "Retail",
+      "location": "Dallas, TX",
+      "logo": "/company25.png",
+      "about": {
+        "description": "RetailHub connects customers with top brands.",
+        "mission": "Deliver the best retail experience.",
+        "coreValues": ["Service", "Quality", "Convenience"]
+      },
+      "jobs": [
+        { "id": 2501, "title": "Store Supervisor", "category": "Management", "job type": "Full-time", "location": "Dallas, TX", "salary": "$50,000 - $70,000", "description": "Supervise store operations.", "requirements": [
+    "Bachelor's degree in any field",
+    "2+ years experience with store management",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" },
+        { "id": 2502, "title": "Sales Clerk", "category": "Sales", "job type": "Part-time", "location": "Dallas, TX", "salary": "$20,000 - $30,000", "description": "Assist customers and process sales.", "requirements": [
+    "Bachelor's degree in any field",
+    "2+ years experience in sales",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" }
+      ]
+    },
+    
+    {
+      "id": 26,
+      "name": "GreenLeaf Foods",
+      "industry": "Hospitality",
+      "location": "Los Angeles, CA",
+      "logo": "/company26.png",
+      "about": {
+        "description": "GreenLeaf Foods offers healthy dining options.",
+        "mission": "Promote wellness through food.",
+        "coreValues": ["Health", "Quality", "Service"]
+      },
+      "jobs": [
+        { "id": 2601, "title": "Head Chef", "category": "Culinary", "job type": "Full-time", "location": "Los Angeles, CA", "salary": "$60,000 - $80,000", "description": "Lead kitchen operations.", "requirements": [
+    "Bachelor's degree in food and nutrition",
+    "2+ years experience in catering",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site" },
+        { "id": 2602, "title": "Waiter", "category": "Service", "job type": "Part-time", "location": "Los Angeles, CA", "salary": "$25,000 - $35,000", "description": "Serve customers in the restaurant.", "requirements": [
+    "Bachelor's degree in Hospitality or related field",
+    "2+ years experience in hotel management",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site" }
+      ]
+    },
+    
+    {
+      "id": 27,
+      "name": "AutoWorks",
+      "industry": "Automotive",
+      "location": "Detroit, MI",
+      "logo": "/company27.png",
+      "about": {
+        "description": "AutoWorks repairs and maintains vehicles.",
+        "mission": "Keep vehicles running smoothly.",
+        "coreValues": ["Reliability", "Expertise", "Service"]
+      },
+      "jobs": [
+        { "id": 2701, "title": "Auto Mechanic", "category": "Engineering", "job type": "Full-time", "location": "Detroit, MI", "salary": "$50,000 - $70,000", "description": "Repair and maintain vehicles.", "requirements": [
+    "Bachelor's degree in Automotive Engineering or related field",
+    "2+ years experience in automotive engineering",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site" },
+        { "id": 2702, "title": "Parts Manager", "category": "Management", "job type": "Full-time", "location": "Detroit, MI", "salary": "$60,000 - $80,000", "description": "Manage parts inventory.", "requirements": [
+    "Bachelor's degree in Business Management or related field",
+    "2+ years experience with parts management",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" }
+      ]
+    },
+    
+    {
+      "id": 28,
+      "name": "MediaConnect",
+      "industry": "Media",
+      "location": "Seattle, WA",
+      "logo": "/company28.png",
+      "about": {
+        "description": "MediaConnect creates engaging digital content.",
+        "mission": "Connect audiences through media.",
+        "coreValues": ["Creativity", "Impact", "Integrity"]
+      },
+      "jobs": [
+        { "id": 2801, "title": "Social Media Manager", "category": "Marketing", "job type": "Full-time", "location": "Seattle, WA", "salary": "$60,000 - $80,000", "description": "Manage social media channels.", "requirements": [
+    "Bachelor's degree in Marketing or related field",
+    "5+ years of experience in marketing",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" },
+        { "id": 2802, "title": "Content Producer", "category": "Production", "job type": "Contract", "location": "Remote", "salary": "$40,000 - $60,000", "description": "Produce digital content.", "requirements": [
+    "Bachelor's degree in Media Production or related field",
+    "2+ years experience in media production",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" }
+      ]
+    },
+    
+    {
+      "id": 29,
+      "name": "BuildMasters",
+      "industry": "Construction",
+      "location": "Denver, CO",
+      "logo": "/company29.png",
+      "about": {
+        "description": "BuildMasters specializes in commercial construction.",
+        "mission": "Build with precision and quality.",
+        "coreValues": ["Quality", "Safety", "Teamwork"]
+      },
+      "jobs": [
+        { "id": 2901, "title": "Construction Foreman", "category": "Supervision", "job type": "Full-time", "location": "Denver, CO", "salary": "$70,000 - $90,000", "description": "Supervise construction projects.", "requirements": [
+    "Bachelor's degree in Construction Management or related field",
+    "3+ years experience in construction management",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site" },
+        { "id": 2902, "title": "Architect", "category": "Design", "job type": "Full-time", "location": "Denver, CO", "salary": "$90,000 - $120,000", "description": "Design building plans.", "requirements": [
+    "Bachelor's degree in Architecture or related field",
+    "2+ years experience in architectural design",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site" }
+      ]
+    },
+    
+    {
+      "id": 30,
+      "name": "TravelWorld",
+      "industry": "Travel",
+      "location": "Miami, FL",
+      "logo": "/company30.png",
+      "about": {
+        "description": "TravelWorld offers global travel packages.",
+        "mission": "Make travel accessible to everyone.",
+        "coreValues": ["Adventure", "Service", "Trust"]
+      },
+      "jobs": [
+        { "id": 3001, "title": "Travel Consultant", "category": "Agent", "job type": "Full-time", "location": "Miami, FL", "salary": "$40,000 - $60,000", "description": "Advise clients on travel options.", "requirements": [
+    "Bachelor's degree in Tourism or related field",
+    "2+ years experience in travel consulting",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" },
+        { "id": 3002, "title": "Tour Operator", "category": "Operations", "job type": "Contract", "location": "Miami, FL", "salary": "$35,000 - $50,000", "description": "Organize and operate tours.", "requirements": [
+    "Bachelor's degree in Tourism or related field",
+    "2+ years experience in tour operations",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" }
+      ]
+    },
+    
+    {
+      "id": 31,
+      "name": "CyberGuard",
+      "industry": "Cybersecurity",
+      "location": "San Jose, CA",
+      "logo": "/company31.png",
+      "about": {
+        "description": "CyberGuard protects businesses from cyber threats.",
+        "mission": "Secure digital assets worldwide.",
+        "coreValues": ["Security", "Trust", "Expertise"]
+      },
+      "jobs": [
+        { "id": 3101, "title": "Cybersecurity Specialist", "category": "Analysis", "job type": "Full-time", "location": "San Jose, CA", "salary": "$100,000 - $130,000", "description": "Monitor and prevent cyber attacks.","requirements": [
+    "Bachelor's degree in Computer Science or related field",
+    "2+ years experience in cybersecurity",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" },
+        { "id": 3102, "title": "Network Engineer", "category": "Engineering", "job type": "Full-time", "location": "Remote", "salary": "$110,000 - $140,000", "description": "Design and maintain secure networks.", "requirements": [
+    "Bachelor's degree in Computer Science or related field",
+    "2+ years experience with network engineering",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" }
+      ]
+    },
+    
+    {
+      "id": 32,
+      "name": "CloudBridge",
+      "industry": "Technology",
+      "location": "San Francisco, CA",
+      "logo": "/company32.png",
+      "about": {
+        "description": "CloudBridge offers cloud migration services.",
+        "mission": "Bridge businesses to the cloud.",
+        "coreValues": ["Innovation", "Support", "Scalability"]
+      },
+      "jobs": [
+        { "id": 3201, "title": "Cloud Architect", "category": "Engineering", "job type": "Full-time", "location": "San Francisco, CA", "salary": "$120,000 - $150,000", "description": "Design cloud infrastructure.", "requirements": [
+    "Bachelor's degree in Computer Science or related field",
+    "2+ years experience in cloud architecture",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" },
+        { "id": 3202, "title": "Support Engineer", "category": "Support", "job type": "Full-time", "location": "Remote", "salary": "$80,000 - $100,000", "description": "Provide technical support for cloud services.", "requirements": [
+    "Bachelor's degree in Computer Science or related field",
+    "2+ years experience with cloud support",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" }
+      ]
+    },
+    
+    {
+      "id": 33,
+      "name": "WellCare",
+      "industry": "Healthcare",
+      "location": "New York, NY",
+      "logo": "/company33.png",
+      "about": {
+        "description": "WellCare provides wellness and health services.",
+        "mission": "Promote healthy living.",
+        "coreValues": ["Wellness", "Compassion", "Professionalism"]
+      },
+      "jobs": [
+        { "id": 3301, "title": "Wellness Coach", "category": "Medical", "job type": "Full-time", "location": "New York, NY", "salary": "$60,000 - $80,000", "description": "Coach clients on wellness.", "requirements": [
+    "Bachelor's degree in Health Sciences or related field",
+    "2+ years experience in wellness coaching",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site" },
+        { "id": 3302, "title": "Nutritionist", "category": "Medical", "job type": "Part-time", "location": "New York, NY", "salary": "$40,000 - $55,000", "description": "Advise on nutrition plans.", "requirements": [
+    "Bachelor's degree in Nutrition or related field",
+    "2+ years experience in nutrition",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site" }
+      ]
+    },
+    
+    {
+      "id": 34,
+      "name": "FinServe",
+      "industry": "Finance",
+      "location": "Chicago, IL",
+      "logo": "/company34.png",
+      "about": {
+        "description": "FinServe offers financial advisory services.",
+        "mission": "Serve clients with financial expertise.",
+        "coreValues": ["Integrity", "Accuracy", "Growth"]
+      },
+      "jobs": [
+        { "id": 3401, "title": "Financial Planner", "category": "Analysis", "job type": "Full-time", "location": "Chicago, IL", "salary": "$80,000 - $100,000", "description": "Plan and manage client finances.", "requirements": [
+    "Bachelor's degree in Finance or related field",
+    "2+ years experience in financial planning",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" },
+        { "id": 3402, "title": "Account Manager", "category": "Management", "job type": "Full-time", "location": "Remote", "salary": "$70,000 - $90,000", "description": "Manage client accounts.", "requirements": [
+    "Bachelor's degree in Business Administration or related field",
+    "2+ years experience in account management",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site" }
+      ]
+    },
+    
+    {
+      "id": 35,
+      "name": "EduPlus",
+      "industry": "Education",
+      "location": "Boston, MA",
+      "logo": "/company35.png",
+      "about": {
+        "description": "EduPlus provides online learning solutions.",
+        "mission": "Make education accessible for all.",
+        "coreValues": ["Access", "Innovation", "Empowerment"]
+      },
+      "jobs": [
+        { "id": 3501, "title": "Online Instructor", "category": "Teaching", "job type": "Full-time", "location": "Remote", "salary": "$60,000 - $80,000", "description": "Teach online courses.", "requirements": [
+    "Bachelor's degree in Education or related field",
+    "2+ years experience in online teaching",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" },
+        { "id": 3502, "title": "Course Designer", "category": "Development", "job type": "Contract", "location": "Boston, MA", "salary": "$70,000 - $90,000", "description": "Design online courses.", "requirements": [
+    "Bachelor's degree in Instructional Design or related field",
+    "2+ years experience in course design",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote"
+ }
+      ]
+    },
+    
+    {
+      "id": 36,
+      "name": "ShopSmart",
+      "industry": "Retail",
+      "location": "Dallas, TX",
+      "logo": "/company36.png",
+      "about": {
+        "description": "ShopSmart offers smart shopping solutions.",
+        "mission": "Make shopping smarter and easier.",
+        "coreValues": ["Convenience", "Service", "Value"]
+      },
+      "jobs": [
+        { "id": 3601, "title": "Retail Associate", "category": "Sales", "job type": "Part-time", "location": "Dallas, TX", "salary": "$25,000 - $35,000", "description": "Assist customers and process sales.", "requirements": [
+    "Bachelor's degree in any field",
+    "5+ years experience in retail",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" },
+        { "id": 3602, "title": "Store Manager", "category": "Management", "job type": "Full-time", "location": "Dallas, TX", "salary": "$55,000 - $75,000", "description": "Manage store operations.", "requirements": [
+    "Bachelor's degree in Business Management or related field",
+    "6+ years experience in retail management",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site" }
+      ]
+    },
+    
+    {
+      "id": 37,
+      "name": "TasteMasters",
+      "industry": "Hospitality",
+      "location": "Los Angeles, CA",
+      "logo": "/company37.png",
+      "about": {
+        "description": "TasteMasters provides gourmet catering services.",
+        "mission": "Deliver masterful taste experiences.",
+        "coreValues": ["Creativity", "Quality", "Service"]
+      },
+      "jobs": [
+        { "id": 3701, "title": "Catering Manager", "category": "Management", "job type": "Full-time", "location": "Los Angeles, CA", "salary": "$60,000 - $80,000", "description": "Manage catering operations.", "requirements": [
+    "Bachelor's degree in Hospitality Management or related field",
+    "2+ years experience with catering management",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site" },
+        { "id": 3702, "title": "Pastry Chef", "category": "Culinary", "job type": "Full-time", "location": "Los Angeles, CA", "salary": "$50,000 - $70,000", "description": "Prepare gourmet pastries.", "requirements": [
+    "Bachelor's degree in Culinary Arts or related field",
+    "5+ years experience in pastry making",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site" }
+      ]
+    },
+    
+    {
+      "id": 38,
+      "name": "AutoDirect",
+      "industry": "Automotive",
+      "location": "Detroit, MI",
+      "logo": "/company38.png",
+      "about": {
+        "description": "AutoDirect sells and services vehicles.",
+        "mission": "Direct customers to the best automotive solutions.",
+        "coreValues": ["Reliability", "Service", "Efficiency"]
+      },
+      "jobs": [
+        { "id": 3801, "title": "Sales Manager", "category": "Sales", "job type": "Full-time", "location": "Detroit, MI", "salary": "$60,000 - $80,000", "description": "Manage sales team and operations.", "requirements": [
+    "Bachelor's degree in Business Administration or related field",
+    "3+ years experience in sales management",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" },
+        { "id": 3802, "title": "Service Technician", "category": "Engineering", "job type": "Full-time", "location": "Detroit, MI", "salary": "$50,000 - $70,000", "description": "Service and repair vehicles.", "requirements": [
+    "Bachelor's degree in Automotive Engineering or related field",
+    "2+ years experience in automotive service",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site" }
+      ]
+    },
+    
+    {
+      "id": 39,
+      "name": "MediaVision",
+      "industry": "Media",
+      "location": "Seattle, WA",
+      "logo": "/company39.png",
+      "about": {
+        "description": "MediaVision creates visual media campaigns.",
+        "mission": "Bring visions to life through media.",
+        "coreValues": ["Creativity", "Impact", "Integrity"]
+      },
+      "jobs": [
+        { "id": 3901, "title": "Graphic Designer", "category": "Design", "job type": "Full-time", "location": "Seattle, WA", "salary": "$60,000 - $80,000", "description": "Design graphics for campaigns.", "requirements": [
+    "Bachelor's degree in Graphic Design or related field",
+    "2+ years experience with graphic design",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "Remote" },
+        { "id": 3902, "title": "Video Producer", "category": "Production", "job type": "Contract", "location": "Remote", "salary": "$50,000 - $70,000", "description": "Produce video content." }
+      ]
+    },
+    
+    {
+      "id": 40,
+      "name": "BuildForce",
+      "industry": "Construction",
+      "location": "Denver, CO",
+      "logo": "/company40.png",
+      "about": {
+        "description": "BuildForce delivers construction management services.",
+        "mission": "Strengthen construction projects with expertise.",
+        "coreValues": ["Quality", "Safety", "Teamwork"]
+      },
+      "jobs": [
+        { "id": 4001, "title": "Project Manager", "category": "Management", "job type": "Full-time", "location": "Denver, CO", "salary": "$80,000 - $100,000", "description": "Manage construction projects.", "requirements": [
+    "Bachelor's degree in Construction Management or related field",
+    "3+ years experience in project management",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site" },
+        { "id": 4002, "title": "Site Engineer", "category": "Engineering", "job type": "Full-time", "location": "Denver, CO", "salary": "$90,000 - $120,000", "description": "Engineer construction sites.", "requirements": [
+    "Bachelor's degree in Civil Engineering or related field",
+    "2+ years experience in site engineering",
+    "Strong problem-solving skills"
+  ],
+  "benefits": [
+    "Health insurance",
+    "401k",
+    "Flexible hours"
+  ],
+  "workType": "On-site" }
+      ]
+    }
+  ],
+           
+  "careerTips": [
+    {
+      "id": 1,
+      "title": "How to Write an Effective Resume",
+      "author": "Jane Doe",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "A well-crafted resume is essential for landing interviews.",
+        "main": "**1. Choose a Clear Format:** Use a professional layout with consistent fonts and spacing. Stick to reverse chronological order for work experience.\n\n**2. Tailor to Each Job:** Customize your resume for each application. Highlight the most relevant skills and experience.\n\n**3. Focus on Achievements:** Rather than listing duties, emphasize what you accomplished. Use metrics where possible (e.g., 'increased sales by 20%').\n\n**4. Use Action Verbs:** Start bullet points with strong verbs like 'Led', 'Created', 'Managed'.\n\n**5. Avoid Generic Phrases:** Avoid buzzwords like 'team player' unless backed up with evidence.\n\n**6. Keep It Concise:** Ideally one page (two at most for experienced professionals).\n\n**7. Proofread Thoroughly:** Check for grammar and spelling mistakes. Consider having a friend review it."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Mastering Job Interviews",
+      "author": "John Smith",
+      "date": "2025-04-15",
+      "content": {
+        "introduction": "Interview success comes from preparation and confidence.",
+        "main": "**1. Research the Company:** Understand its mission, values, and recent developments.\n\n**2. Practice Common Questions:** Rehearse answers to typical interview questions and behavioral prompts.\n\n**3. Prepare Your Own Questions:** Show interest by asking thoughtful questions about the team and role.\n\n**4. Dress Appropriately:** Wear professional attire that suits the company's culture.\n\n**5. Arrive Early:** Aim to be 10–15 minutes early to show punctuality.\n\n**6. Use the STAR Method:** Structure answers by describing the Situation, Task, Action, and Result.\n\n**7. Follow Up:** Send a thank-you email within 24 hours, reiterating your interest and key points."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Building a Personal Brand Online",
+      "author": "Clara Knight",
+      "date": "2025-03-24",
+      "content": {
+        "introduction": "Your online presence can influence your career opportunities.",
+        "main": "**1. Start with LinkedIn:** Complete your profile with a professional photo, headline, and summary.\n\n**2. Share Relevant Content:** Post articles, comment on discussions, and write about industry trends.\n\n**3. Engage Authentically:** Join groups, participate in conversations, and celebrate others' achievements.\n\n**4. Maintain Consistency:** Ensure your profiles (LinkedIn, Twitter, portfolio) reflect your professional identity.\n\n**5. Build a Portfolio:** Create a website or use platforms like Behance or GitHub to showcase your work."
+      }
+    },
+    {
+      "id": 4,
+      "title": "How to Negotiate Your Salary",
+      "author": "Luis Green",
+      "date": "2025-07-30",
+      "content": {
+        "introduction": "Negotiating salary is an important career skill.",
+        "main": "**1. Research Market Rates:** Use platforms like Glassdoor or PayScale to understand typical salaries.\n\n**2. Highlight Your Value:** Focus on your unique skills, achievements, and how they benefit the company.\n\n**3. Be Confident and Respectful:** Stay calm and professional during discussions.\n\n**4. Consider Total Compensation:** Look beyond salary—benefits, bonuses, and perks matter.\n\n**5. Be Ready to Walk Away:** If the offer doesn’t meet your expectations or needs, it's okay to decline."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Time Management Tips for Professionals",
+      "author": "Nina Clark",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "Effective time management boosts productivity and reduces stress.",
+        "main": "**1. Use Planning Tools:** Utilize calendars, to-do lists, or apps like Trello or Notion.\n\n**2. Break Down Tasks:** Divide large tasks into manageable steps.\n\n**3. Prioritize Wisely:** Use the Eisenhower Matrix to sort tasks by urgency and importance.\n\n**4. Avoid Multitasking:** Focus on one task at a time to increase efficiency.\n\n**5. Schedule Deep Work:** Block out uninterrupted time for complex tasks.\n\n**6. Take Regular Breaks:** Use techniques like Pomodoro (25 min work, 5 min break) to avoid fatigue."
+      }
+    },
+    {
+      "id": 6,
+      "title": "How to Network Effectively",
+      "author": "Robert Lang",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "Networking opens doors to new opportunities.",
+        "main": "**1. Attend Events:** Join industry events, conferences, and seminars.\n\n**2. Be Genuine:** Approach conversations with authenticity and curiosity.\n\n**3. Follow Up:** Send a message or email to continue the relationship.\n\n**4. Offer Value:** Share helpful resources or make introductions.\n\n**5. Use LinkedIn:** Stay connected and engage with your network."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Remote Work Best Practices",
+      "author": "Jessica Wood",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "Remote work requires discipline and communication.",
+        "main": "**1. Create a Workspace:** Dedicate a quiet, ergonomic space for work.\n\n**2. Set a Routine:** Stick to regular work hours and start/end your day consistently.\n\n**3. Use Tools Wisely:** Leverage tools like Slack, Zoom, and project management apps.\n\n**4. Communicate Clearly:** Be proactive with updates and responsive to messages.\n\n**5. Avoid Burnout:** Schedule breaks and disconnect after work."
+      }
+    },
+    {
+      "id": 8,
+      "title": "Switching Careers: A Step-by-Step Guide",
+      "author": "Emeka Johnson",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "Changing careers is possible with proper planning.",
+        "main": "**1. Assess Your Skills:** Identify transferable skills and strengths.\n\n**2. Explore Options:** Research new industries and roles.\n\n**3. Upskill:** Take courses, certifications, or volunteer work to build experience.\n\n**4. Network:** Talk to professionals in your desired field.\n\n**5. Update Materials:** Refresh your resume and online profiles to reflect your new direction."
+      }
+    },
+    {
+      "id": 9,
+      "title": "Top Skills Employers Look For",
+      "author": "Alicia Tran",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "Understanding in-demand skills can boost your employability.",
+        "main": "**1. Soft Skills:** Communication, adaptability, teamwork, problem-solving.\n\n**2. Technical Skills:** Vary by field, e.g., coding, data analysis, digital marketing.\n\n**3. Leadership Abilities:** Taking initiative, managing teams, strategic thinking.\n\n**4. Continuous Learning:** Show that you pursue new skills and adapt to changes."
+      }
+    },
+    {
+      "id": 10,
+      "title": "Dealing with Job Rejections Positively",
+      "author": "Mark Ellis",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "Rejection is part of every career journey.",
+        "main": "**1. Reframe the Experience:** View it as a learning opportunity.\n\n**2. Ask for Feedback:** Use insights to improve future applications.\n\n**3. Reflect:** Evaluate what went well and where to improve.\n\n**4. Stay Persistent:** Keep applying and refining your approach.\n\n**5. Remain Positive:** Focus on progress and your long-term goals."
+      }
+    },
+    {
+      "id": 11,
+      "title": "Developing Leadership Skills",
+      "author": "Rachel Kim",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "Leadership skills are essential for career advancement.",
+        "main": "**1. Communicate Clearly:** Be concise and empathetic in your interactions.\n\n**2. Take Initiative:** Volunteer for new responsibilities or projects.\n\n**3. Learn from Mentors:** Seek advice and observe effective leaders.\n\n**4. Practice Accountability:** Own your actions and decisions.\n\n**5. Keep Learning:** Read leadership books and attend workshops."
+      }
+    },
+    {
+      "id": 12,
+      "title": "Creating a Powerful LinkedIn Profile",
+      "author": "Sean Grant",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "A strong LinkedIn profile boosts your visibility.",
+        "main": "**1. Use a Professional Photo:** Dress appropriately with a clear headshot.\n\n**2. Craft a Strong Headline:** Summarize your value in a few words.\n\n**3. Write a Compelling Summary:** Highlight achievements and goals.\n\n**4. Add Experience and Skills:** Be specific and include results.\n\n**5. Get Endorsements:** Ask colleagues to endorse your skills."
+      }
+    },
+    {
+      "id": 13,
+      "title": "Work-Life Balance Strategies",
+      "author": "Lilian Adams",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "Maintaining work-life balance improves overall well-being.",
+        "main": "**1. Set Boundaries:** Define clear work and personal time.\n\n**2. Prioritize Self-Care:** Sleep, exercise, and hobbies matter.\n\n**3. Learn to Say No:** Avoid overcommitting and burnout.\n\n**4. Take Time Off:** Use your vacation and rest regularly.\n\n**5. Communicate Needs:** Discuss flexibility with your employer."
+      }
+    },
+    {
+      "id": 14,
+      "title": "How to Write a Cover Letter That Stands Out",
+      "author": "Tim Okoro",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "A cover letter should complement your resume.",
+        "main": "**1. Address the Hiring Manager:** Use a name if possible.\n\n**2. Tailor the Content:** Relate your skills directly to the job.\n\n**3. Show Enthusiasm:** Express genuine interest in the role.\n\n**4. Use Examples:** Back up claims with specific achievements.\n\n**5. Keep It Short:** One page with clear structure."
+      }
+    },
+    {
+      "id": 15,
+      "title": "Turning Internships into Full-Time Offers",
+      "author": "Katherine Wells",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "Internships can lead to permanent roles with the right approach.",
+        "main": "**1. Be Proactive:** Take initiative and ask for more responsibilities.\n\n**2. Perform Well:** Treat the internship like a real job.\n\n**3. Build Relationships:** Network with team members and supervisors.\n\n**4. Seek Feedback:** Use it to improve and show growth.\n\n**5. Express Interest:** Let them know you’d like to stay."
+      }
+    },
+    {
+      "id": 16,
+      "title": "How to Choose the Right Career Path",
+      "author": "David Lin",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "Choosing a career path requires self-awareness and research.",
+        "main": "**1. Know Yourself:** Assess your interests, strengths, and values.\n\n**2. Explore Options:** Research roles and industries.\n\n**3. Try Things Out:** Do internships or volunteer work.\n\n**4. Think Long Term:** Consider job outlook and growth.\n\n**5. Stay Flexible:** Be open to changing paths as you learn."
+      }
+    },
+    {
+      "id": 17,
+      "title": "Improving Public Speaking Skills",
+      "author": "Sandra Obi",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "Public speaking is a valuable professional skill.",
+        "main": "**1. Practice Regularly:** Rehearse speeches and presentations.\n\n**2. Join Speaking Groups:** Try Toastmasters or local clubs.\n\n**3. Focus on Structure:** Have a clear beginning, middle, and end.\n\n**4. Use Body Language:** Maintain eye contact and good posture.\n\n**5. Manage Nervousness:** Breathe deeply and prepare thoroughly."
+      }
+    },
+    {
+      "id": 18,
+      "title": "Using Freelancing to Gain Experience",
+      "author": "Martin Young",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "Freelancing can help you build skills and a portfolio.",
+        "main": "**1. Start Small:** Use platforms like Upwork or Fiverr.\n\n**2. Deliver Quality Work:** Meet deadlines and exceed expectations.\n\n**3. Ask for Reviews:** Positive feedback boosts credibility.\n\n**4. Track Your Progress:** Keep records of projects and results.\n\n**5. Build a Portfolio:** Display your best work for future clients."
+      }
+    },
+    {
+      "id": 19,
+      "title": "How to Stay Motivated in Your Career",
+      "author": "Nora Adeyemi",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "Motivation is key to long-term career success.",
+        "main": "**1. Set Goals:** Define what you want short- and long-term.\n\n**2. Celebrate Wins:** Acknowledge progress and achievements.\n\n**3. Find Support:** Connect with mentors or peers.\n\n**4. Keep Learning:** Stay curious and grow your skills.\n\n**5. Align with Passion:** Work that reflects your values is more fulfilling."
+      }
+    },
+    {
+      "id": 20,
+      "title": "Resume Mistakes to Avoid",
+      "author": "Jake Rowland",
+      "date": "2025-07-15",
+      "content": {
+        "introduction": "Avoiding resume mistakes increases your chances of getting noticed.",
+        "main": "**1. Use Modern Format:** Avoid outdated templates.\n\n**2. Proofread:** Fix spelling and grammar errors.\n\n**3. Be Honest:** Don’t exaggerate or lie.\n\n**4. Stay Relevant:** Highlight roles and skills aligned with the job.\n\n**5. Keep It Focused:** Don’t list every job, just the most important."
+      }
+    }
+  ]
+}
+
+
+
+  
+
+
+    
+   
