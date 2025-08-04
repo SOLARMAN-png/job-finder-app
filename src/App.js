@@ -11,6 +11,7 @@ import ErrorPage from "./ErrorPage";
 import ResetPasswordForm from "./ResetPasswordForm";
 import RecoveryEmailPage from "./RecoveryEmail";
 import AboutYouFirstPage from "./AboutYouFirst";
+import AboutYouSecondPage from "./AboutYouSecond";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Route path="/recoveryEmailPage" element={<RecoveryEmailPage />} />
           <Route path="/reset-password" element={<ResetPasswordForm />} />
           <Route path="/aboutyoufirst" element={<AboutYouFirstPage />} />
+          <Route path="/aboutyousecond" element={<AboutYouSecondPage />} />
         </Routes>
       </Router>
     </div>
