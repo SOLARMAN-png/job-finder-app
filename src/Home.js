@@ -109,7 +109,7 @@ const HomePage = () => {
               <input
                 type="text"
                 placeholder="search jobs, location and categories"
-                className="homePage-searchInput"
+                id="homePage-searchInput"
                 required
               />
               <button className="homePage-searchButton">Find job</button>

@@ -5,6 +5,7 @@ const CompanydetailsPage = () => {
   const navigate = useNavigate();
   const { id } = useParams();
   const [company, setCompany] = useState(null);
+  const [relatedCompanies, setRelatedCompanies] = useState([]);
 
   useEffect(() => {
     fetch("/data/db.json")
@@ -12,6 +13,14 @@ const CompanydetailsPage = () => {
       .then((data) => {
         const found = data.companies.find((c) => String(c.id) === String(id));
         setCompany(found);
+        // Get first three related companies by industry (excluding the current one)
+        if (found && data.companies) {
+          setRelatedCompanies(
+            data.companies
+              .filter((c) => c.id !== found.id && c.industry === found.industry)
+              .slice(0, 3)
+          );
+        }
       });
   }, [id]);
 
@@ -67,7 +76,7 @@ const CompanydetailsPage = () => {
         Home &gt; Find Jobs &gt; Detail Company {company ? company.name : ""}
       </div>
 
-      <div className="companyDetailsPage-contentContainers">
+      <div className="companyDetailsPage-contentContainer">
         <div className="companyDetailsPage-mainContent">
           <div className="aboutCompany-container">
             <div className="aboutCompany-Image">
@@ -92,7 +101,10 @@ const CompanydetailsPage = () => {
           </div>
 
           <div className="jobVacancy-container">
-            <p className="jobVacancy-title">Job Vacancies</p>
+            <div className="jobVacancy-titleHeaderContainer">
+              <p className="jobVacancy-title">Job Vacancies</p>
+            </div>
+
             <div className="jobVacancy-list">
               {company && company.jobs && company.jobs.length > 0 ? (
                 company.jobs.map((job) => (
@@ -128,7 +140,49 @@ const CompanydetailsPage = () => {
             </div>
           </div>
         </div>
-        <div className="companyDetailsPage-sideContent"></div>
+        <div className="companyDetailsPage-sideContent">
+          <div>
+            <div className="companyDetailsPage-sideContentTitleContainer">
+              <h2 className="companyDetailsPage-sideContentTitle">
+                Related Companies
+              </h2>
+            </div>
+            <div className="companyDetailsPage-relatedCompaniesContainer">
+              {relatedCompanies.length > 0 ? (
+                relatedCompanies.map((related) => (
+                  <div
+                    key={related.id}
+                    className="companyDetailsPage-relatedContentContainer"
+                  >
+                    <img
+                      src={related.logo || ""}
+                      className="companyDetailsPage-relatedCompaniesImage"
+                    />
+                    <div className="companyDetailsPage-relatedCompaniesContent">
+                      <h2 className="companyDetailsPage-relatedCompaniesTitle">
+                        {related.name}
+                      </h2>
+                      <h3 className="companyDetailsPage-relatedCompaniesIndustry">
+                        {related.industry}
+                      </h3>
+                      <p className="companyDetailsPage-relatedCompaniesDescription">
+                        {related.about?.description}
+                      </p>
+                      <Link
+                        to={`/companydetails/${related.id}`}
+                        className="relatedComapanies-readMoreLink"
+                      >
+                        Read more
+                      </Link>
+                    </div>
+                  </div>
+                ))
+              ) : (
+                <p>No related companies found.</p>
+              )}
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="footer-section">

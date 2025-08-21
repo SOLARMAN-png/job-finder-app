@@ -86,7 +86,7 @@ const ArticleDetailsPage = () => {
         Home &gt; CareerTips &gt; ArticleDetails &gt; {tip.title}
       </div>
 
-      <div className="articleDetailsPage-contentContainers">
+      <div className="articleDetailsPage-contentContainer">
         <div className="articleDetailsPage-mainContainer">
           <div className="articleDetailsPage-imageContainer">
             {tip.image && <img src={tip.image} alt={tip.title} />}

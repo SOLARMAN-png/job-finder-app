@@ -144,8 +144,9 @@ code {
 .homepagetitle-container {
   background-color: blanchedalmond;
   max-width: 500px;
-  min-height: 60px;
-  margin: 20px auto 0 auto;
+  height: 60px;
+  margin: 20px auto;
+  padding: 5px auto;
 }
 
 .homepage-title {
@@ -158,10 +159,9 @@ code {
 
 
 .homepage-subtitle-container {
-max-width: 500px;
-min-height: 250px;
-background-color: aqua; 
-margin: 5px auto 0 auto;
+  max-width: 500px;
+  min-height: 250px;
+  margin: 5px auto 0 auto;
 }
 
 .homepage-subtitle {
@@ -172,6 +172,11 @@ margin: 5px auto 0 auto;
   color: black;
 }
 
+.homepage-description {
+  padding-left: 15px;
+  color: gray;
+}
+
 .homepage-searchContainer {
   display: flex;
   flex-direction: row;
@@ -179,28 +184,25 @@ margin: 5px auto 0 auto;
   gap: 5px;
   margin: 35px auto;
   max-width: 550px;
-  min-height: ;
-  background-color: blueviolet;
-  /* align-items: center;
-  justify-content: center;
-  align-self: center; */
+  min-height: 70px;
+  background-color: white;
 }
 
-.homePage-searchInput {
-  margin-left: 2px;
-  background-color: tomato;
-} 
+#homePage-searchInput {
+  margin: auto 10px;
+  background-color: lightgray;
+}
 
 
 
 .homePage-rightContentContainer {
-   width: 50%;
+  width: 50%;
   height: 668px;
   /* background-color: aqua; */
 }
 
 .homepage-imageContainer {
-margin: 50px auto;
+  margin: 50px auto;
   max-width: 600px;
   min-height: 500px;
 }
@@ -221,14 +223,14 @@ margin: 50px auto;
   border-radius: 5px;
 }
 
-.search {
+.homePage-searchButton {
   background-color: blue;
   color: white;
   width: 90px;
   height: 50px;
   border: none;
   border-radius: 5px;
-  margin-left: 10px;
+  margin: auto 15px;
   cursor: pointer;
 }
 
@@ -538,7 +540,7 @@ input[type="password"] {
 .recoveryEmail-termsNote {
   padding-top: 70px;
   color: gray;
- justify-content: center;
+  justify-content: center;
   text-align: center;
   font-size: 13px;
   line-height: 20px;
@@ -550,7 +552,7 @@ input[type="password"] {
 }
 
 .recoveryEmail-rightImage {
- width: 760px;
+  width: 760px;
   height: 1024px;
 }
 
@@ -657,10 +659,6 @@ input[type="password"] {
 
 
 /* find job page styling */
-
-
-
-
 .searchJobs-section {
   max-width: 1200px;
   min-height: 143px;
@@ -684,7 +682,7 @@ input[type="password"] {
   max-width: 100%;
   min-height: 25px;
   margin-top: 0;
-  background-color: tomato;
+  background-color: lightgrey;
 }
 
 
@@ -692,7 +690,7 @@ input[type="password"] {
   width: 85%;
   min-height: 20px;
   background-color: white;
-  margin: 5px auto;
+  margin: auto 0 auto 20px;
   padding: 15px;
   border: none;
   border-radius: 5px;
@@ -703,7 +701,7 @@ input[type="password"] {
   color: white;
   width: 90px;
   height: 40px;
-  margin: 10px auto;
+  margin: auto 10px auto 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -711,28 +709,28 @@ input[type="password"] {
 
 
 .findJobs-container {
-max-width: 1200px;
-min-height: 1400px;
-margin: 35px auto;
-background-color: aqua;
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-gap: 30px;
+  max-width: 1200px;
+  min-height: 1400px;
+  margin: 35px auto;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 30px;
 }
 
 .findJobs-leftContentContainer {
- width: 882px;
+  width: 882px;
   min-height: 1200px;
-  margin: 20px auto;
-  background-color: red;
+  margin: 20px auto 0 20px;
+  background-color: whitesmoke;
 }
 
 .findJobs-CompaniesContainer {
   max-width: 98%;
   min-height: 300px;
   margin: 5px auto;
-  background-color: lightslategray;
+  /* background-color: lightslategray; */
 }
 
 .findJobs-CompaniesHeaderContainer {
@@ -767,7 +765,7 @@ gap: 30px;
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 10px;
-  background-color: aquamarine;
+  background-color: lightgrey;
   margin: 10px auto;
 }
 
@@ -779,53 +777,40 @@ gap: 30px;
   margin: 10px auto;
   width: 95%;
   min-height: 300px;
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
 }
 
 .companyJob-item {
   width: 230px;
   height: 200px;
-  background-color: lightgray;
+  background-color: white;
   padding-left: 20px;
   padding-top: 10px;
   border-radius: 5px;
 }
 
 .findJobs-newestJobsContainer {
-   max-width: 98%;
+  max-width: 98%;
   min-height: 900px;
   margin: 5px auto;
-  background-color: lightslategray;
+  background-color: whitesmoke;
 }
 
 .findJobs-newestJobsHeaderContainer {
   max-width: 95%;
   min-height: 50px;
   background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 400px;
   margin: 20px auto;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 400px;
-}
-
-.findJobs-newestJobsHeaderContainer {
-  max-width: 95%;
-  min-height: 50px;
-  background-color: lightgray;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 400px;
-  margin: 10px auto;
   align-items: center;
   justify-content: center;
 }
 
 .findJobs-newestJobsSeeAllBtn {
-   color: blue;
+  color: blue;
   text-decoration: none;
   font-size: 15px;
   max-width: 70px;
@@ -839,7 +824,7 @@ gap: 30px;
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 10px;
-  background-color: aquamarine;
+  background-color: lightgrey;
   margin: 20px auto;
 }
 
@@ -852,17 +837,18 @@ gap: 30px;
   margin: 10px auto;
   width: 95%;
   min-height: 300px;
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
   justify-content: flex-start;
 }
 
 .featuredJob-item {
   width: 200px;
   height: 300px;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   padding-left: 20px;
   padding-top: 10px;
   border-radius: 5px;
+  background-color: white;
   /* Place first three on top row, next three below */
 }
 
@@ -870,25 +856,27 @@ gap: 30px;
 .findJobs-rightContentContainer {
   max-width: 286px;
   height: 600px;
-  margin: 20px auto;
-  background-color: blue;
+  margin: 20px 20px 0 auto;
+  background-color: whitesmoke;
 }
 
 .filter-section {
   max-width: 100%;
   min-height: 500px;
-  background-color: lightgray;
-  /* display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  gap: 20px; */
-  padding-top: 30px;
+  background-color: whitesmoke;
+  padding-top: 10px;
   padding-left: 20px;
+  margin: 20px 20px 0 auto;
 }
 
 .filter-header {
   align-items: center;
   justify-content: center;
+  padding-top: 10px;
+}
+
+.filter-sectionTitle {
+  padding-top: 10px;
 }
 
 .applyFilter-button {
@@ -903,7 +891,7 @@ gap: 30px;
 }
 
 
-  .footer-section {
+.footer-section {
   width: 100%;
   height: 200px;
   background-color: lightgray;
@@ -913,61 +901,61 @@ gap: 30px;
   gap: 50px;
   padding-top: 30px;
   margin-top: 100px;
-} 
+}
 
 
 
-     /* job details page   */
-
-
-.companyDetailsPage-contentContainers {
+/* Company details page styling  */
+.companyDetailsPage-contentContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 30px;
-  width: 100%;
-  height: 1150px;
-  background-color: white;
+  gap: 50px;
+  width: 85%;
+  max-width: 85%;
+  min-height: 1150px;
+  box-sizing: border-box;
+  margin: 30px auto;
+  background-color: gray;
 }
 
 
 .companyDetailsPage-mainContent {
-  width: 70%;
-  height: 1100px;
-  margin-left: 50px;
-  margin-top: 30px;
+  max-width: 80%;
+  min-height: 1100px;
+  margin: 20px 0 0 20px;
   background-color: lightgray;
   border-radius: 5px;
 }
 
 .aboutCompany-container {
-  width: 95%;
-  height: 300px;
+  max-width: 95%;
+  min-height: 300px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 20px;
+  gap: 15px;
   background-color: white;
-  margin-top: 10px;
-  margin-left: 13px;
-  padding-left: 20px;
-  padding-top: 20px;
+  margin: 10px auto;
   border-radius: 5px;
 }
 
 .aboutCompany-Image {
   width: 45%;
-  height: 90%;
+  height: 300px;
   background-color: lightgray;
   border-radius: 5px;
+  margin: 10px auto;
 }
 
 .aboutCompany-info {
-  width: 50%;
-  height: 90%;
+  max-width: 45%;
+  min-height: 300px;
   background-color: lightgray;
   padding-left: 10px;
   border-radius: 5px;
+  margin: 10px auto;
+  box-sizing: border-box;
 }
 
 .about-title {
@@ -978,18 +966,25 @@ gap: 30px;
 }
 
 .jobVacancy-container {
-  width: 97%;
-  height: 700px;
-  margin-left: 13px;
-  margin-top: 30px;
+  width: 95%;
+  max-width: 95%;
+  min-height: 700px;
+  margin: 30px auto;
   background-color: white;
   border-radius: 5px;
 }
 
+.jobVacancy-titleHeaderContainer {
+  max-width: 95%;
+  min-height: 50px;
+  background-color: lightgrey;
+  margin: 40px auto 10px auto;
+}
+
 .jobVacancy-title {
-  padding-left: 20px;
-  padding-top: 20px;
-  font-size: 15px;
+  padding: auto 0 auto 20px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .jobVacancy-list {
@@ -1003,49 +998,133 @@ gap: 30px;
 
 .jobVacancy-item {
   width: 230px;
-  height: 300px;
+  max-width: 230px;
+  min-height: 300px;
   background-color: lightgray;
   padding-left: 20px;
   padding-top: 10px;
   border-radius: 5px;
+  box-sizing: border-box;
 }
 
 .companyDetailsPage-sideContent {
-  width: 20%;
-  height: 600px;
-  margin-top: 30px;
+  max-width: 25%;
+  min-height: 600px;
+  margin: 20px 20px 0 0;
   background-color: lightgray;
   border-radius: 5px;
 }
 
+.companyDetailsPage-sideContentTitleContainer {
+  max-width: 80%;
+  min-height: 50px;
+  background-color: white;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.companyDetailsPage-sideContentTitle {
+  padding: 10px auto;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.companyDetailsPage-relatedCompaniesContainer {
+  max-width: 95%;
+  min-height: 200px;
+  background-color: white;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.companyDetailsPage-relatedContentContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.companyDetailsPage-relatedCompaniesImage {
+  width: 30%;
+  height: 140px;
+  margin: 5px 0 auto 5px;
+  border-radius: 5px;
+}
+
+.companyDetailsPage-relatedCompaniesContent {
+  width: 65%;
+  max-width: 65%;
+  min-height: 140px;
+  width: 63%;
+  ;
+  margin: 5px 5px auto 0;
+  background-color: bisque;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.companyDetailsPage-relatedCompaniesTitle {
+  font-size: 15px;
+}
+
+.companyDetailsPage-relatedCompaniesIndustry {
+  font-size: 13px;
+  color: gray;
+  padding-top: 2px;
+}
+
+.companyDetailsPage-relatedCompaniesDescription {
+  font-size: 11px;
+  color: gray;
+  padding-top: 2px;
+}
+
+.relatedComapanies-readMoreLink {
+  color: blue;
+  text-decoration: none;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-left: 0;
+  margin-left: 10px;
+}
 
 /* Jobs breakdown page styling */
 
 .jobBreakdown-content-container {
   width: 100%;
   height: 1300px;
+  max-width: 100%;
+  min-height: 1300px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 30px;
+  gap: 5px;
   margin-top: 10px;
   background-color: lightseagreen;
 }
 
 .jobBreakdown-leftSideContent {
-  width: 73%;
-  height: 1100px;
-  margin-left: 30px;
-  margin-top: 30px;
+  width: 65%;
+  height: 1150px;
+  max-width: 73%;
+  min-height: 1150px;
+  margin: 30px auto;
   background-color: lightgray;
   border-radius: 5px;
 }
 
+ 
 .jobBreakdown-sideBarContainer {
   width: 20%;
   height: 600px;
-  margin-top: 30px;
+  max-width: 20%;
+  min-height: 600px;
+  margin: 30px auto;
   background-color: lightgray;
   border-radius: 5px;
 }
@@ -1055,10 +1134,35 @@ gap: 30px;
   height: 300px;
   background-color: white;
   display: block;
-  margin-left: 20px;
-  margin-top: 30px;
+  margin: 30px auto 0 auto;
   border-radius: 5px;
 }
+
+.jobBreakdown-applyButtonContainer {
+  width: 90%;
+  height: 40px;
+  max-width: 90%;
+  min-height: 30px;
+  /* background-color: red; */
+  margin: 10px auto; 
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.jobBreakdown-applyButton {
+  background-color: blue; 
+  color: white;
+  width: 100px;
+  height: 30px;
+  max-width: 100px;
+  min-height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin: auto 0 auto 700px;
+  cursor: pointer;
+}
+
 
 .jobBreakdown-image {
   margin-top: 320px;
@@ -1070,15 +1174,10 @@ gap: 30px;
   width: 93%;
   height: 300px;
   background-color: white;
-  margin-left: 20px;
-  margin-top: 40px;
+  margin: 10px auto;
   padding-left: 20px;
   padding-top: 10px;
   border-radius: 5px;
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 100px;    */
 }
 
 
@@ -1107,75 +1206,240 @@ gap: 30px;
   border-radius: 5px;
 }
 
-.jobBreakdown-applyButton {
-  background-color: blue;
-  color: white;
-  width: 100px;
-  height: 30px;
-  border: none;
-  border-radius: 5px;
-  margin-left: 20px;
-  margin-top: 0px;
-  cursor: pointer;
-}
 
 /* career tip page styling */
 
-.careerTips-carousel-container {
+.careerTips-carouselContainer {
   width: 100%;
+  max-width: 100%;
+  min-height: 400px;
   height: 400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
+  margin: 30px auto 20px auto;
   background-color: lightseagreen;
   overflow: hidden;
 }
 
 .left-slide {
-  width: 50%;
-  height: 200px;
-  overflow: hidden;
+  width: 800px;
+  max-width: 800px;
+  height: 180px;
+  min-height: 200px;
+  /* overflow: hidden; */
   background-color: lightgray;
-  margin-top: 50px;
-  margin-left: 100px;
+  margin: auto 0 auto 100px;
   border-radius: 10px;
-  clip-path: inset(0 0 0 50%);
+  /* clip-path: inset(0 0 0 50%); */
 }
 
-.slide-active {
-  width: 50%;
-  height: 280px;
+.middle-slide {
+  width: 1400px;
+  height: 250px;
   background: lightgray;
   border-radius: 10px;
   z-index: 2;
-  margin: 0 50px;
+  margin: auto 50px;
   /* space between slides */
-  display: flex;
 }
 
-.right-slide {
-  width: 50%;
-  height: 200px;
-  overflow: hidden;
-  background-color: lightgray;
-  margin-top: 50px;
-  border-radius: 10px;
-  margin-right: 100px;
-  clip-path: inset(0 50% 0 0);
-}
-
-.carousel-buttons {
+.middleSildeCarousel-headerContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 10px;
-  margin-top: 10px;
-  margin-left: 600px;
+  gap: 120px;
+  margin: 20px auto;
+  /* background-color: lightsalmon; */
+  width: 100%;
+  height: 70px;
+  /* align-items: center;
+  justify-content: center; */
 }
 
-.carousal-button-left {
-  width: 30px;
+.middleSildeCarousel-authorNameContainer {
+width: 200px;
+height: 50px;
+background-color: white;
+border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0 auto 10px;
+}
+
+.middleSildeCarousel-dateContainer {
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 10px auto 0;
+}
+
+.middleSildeCarousel-authorName {
+  font-weight: bold;
+}
+
+.middleSildeCarousel-date {
+color: grey;
+font-size: 13px;
+}
+
+.middleSlide-contentContainer {
+  width: 400px;
+  height: 180px;
+  margin: 40px auto;
+  background-color: turquoise;
+  border-radius: 10px;
+}
+
+.middleSlide-articleTopic {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.middleSlide-articleIntroduction {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 14px;
+  color: gray;
+}
+
+.sideSildeCarousel-headerContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 90px;
+  margin: 20px auto;
+  width: 100%;
+  height: 50px;
+  /* background-color: lightgreen; */
+}
+
+.sideSildeCarousel-authorNameContainer {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0 auto 10px;
+}
+
+.carousel-authorName {
+  padding: 0;
+  /* Remove left/top padding */
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.sideSildeCarousel-dateContainer {
+  width: 70px;
+  height: 20px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 10px auto 0;
+}
+
+.carousel-date {
+  padding: 0;
+  /* Remove left/top padding */
+  font-size: 10px;
+  color: gray;
+}
+
+.sideSlide-contentContainer {
+  width: 250px;
+  height: 130px;
+  margin: 50px auto;
+  background-color: turquoise;
+  border-radius: 10px;
+}
+
+.sideSlide-articleTopic {
+  padding-left: 15px;
+  padding-top: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.sideSlide-articleIntroduction {
+  padding-left: 15px;
+  padding-top: 5px;
+  font-size: 12px;
+  color: grey;
+}
+
+.sideSlideCarousel-readMoreBtn {
+background-color: blue;
+  color: white;
+  width: 80px;
+  height: 20px;
+  max-width: 80px;
+  min-height: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-top: 5px;
+  padding: 3px;
+  cursor: pointer;  
+  font-size: 12px;
+}
+
+.carousel-readMoreBtn {
+  background-color: blue;
+  color: white;
+  width: 100px;
+  height: 30px;
+  max-width: 100px;
+  min-height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.right-slide {
+  width: 800px;
+  max-width: 800px;
+  height: 180px;
+  min-height: 200px;
+  /* overflow: hidden; */
+  background-color: lightgray;
+  margin: auto 100px auto 0;
+  border-radius: 10px;
+  /* clip-path: inset(0 50% 0 0); */
+}
+
+
+
+.careerTips-carouselButtonContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 15px;
+  width: 20%;
+  max-width: 20%;
+  height: 30px;   
+  min-height: 30px;
+  margin: 20px auto 0 auto;
+  /* background-color: lightskyblue; */
+  align-items: center;
+  justify-content: center;
+}
+
+.carousalButton-leftSlide {
+  width: 80px;
   height: 10px;
   background-color: lightgray;
   border-radius: 20px;
@@ -1183,18 +1447,17 @@ gap: 30px;
   border: none;
 }
 
-.carousal-button-active {
-  width: 60px;
+.carousalButton-middleSlide {
+  width: 80px;
   height: 10px;
   background-color: blue;
   border-radius: 20px;
   cursor: pointer;
   border: none;
-
 }
 
-.carousal-button-right {
-  width: 30px;
+.carousalButton-rightSlide {
+  width: 80px;
   height: 10px;
   background-color: lightgray;
   border-radius: 20px;
@@ -1202,11 +1465,14 @@ gap: 30px;
   border: none;
 }
 
+
+
 .careerTips-contentContainer {
-  width: 90%;
+  width: 1200px;
+  max-width: 1200px;
+  min-height: 1200px;
   height: 1200px;
-  margin-top: 10px;
-  margin-left: 70px;
+  margin: 20px auto;
   background-color: lightgray;
 }
 
@@ -1219,10 +1485,11 @@ gap: 30px;
 
 .careerTips-content {
   width: 95%;
-  height: 850px;
+  max-width: 95%;
+  height: 950px;
+  min-height: 850px;
   background-color: white;
-  margin-top: 30px;
-  margin-left: 30px;
+  margin: 30px auto 0 auto;
   border-radius: 12px;
   overflow: visible;
   display: flex;
@@ -1233,6 +1500,8 @@ gap: 30px;
 
 .careerTips-contentImage {
   width: 100%;
+  max-width: 100%;
+  min-height: 300px;
   height: 300px;
   background-color: whitesmoke;
   border-radius: 5px;
@@ -1240,12 +1509,12 @@ gap: 30px;
 
 .careerTips-item {
   width: 500px;
+  max-width: 500px;
   height: 300px;
   background-color: lightgrey;
   border-radius: 12px;
   overflow: visible;
-  margin-left: 40px;
-  margin-top: 20px;
+  margin: 40px auto 0 auto;
   position: static;
 }
 
@@ -1325,38 +1594,50 @@ gap: 30px;
 .article-readMoreBtn {
   background-color: blue;
   color: white;
-  width: 100px;
+  width: 500px;
   height: 30px;
   border: none;
   border-radius: 5px;
   margin-left: 10px;
   margin-top: 5px;
   cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 5px;
 }
 
 .articleSection-paginationContainer {
-  width: 200px;
-  margin-top: 20px;
-  margin-left: 500px;
+  width: 300px;
+  margin: 30px auto 0 auto;
   cursor: pointer;
-  background-color: antiquewhite;
+}
+
+.articleSection-paginationContainer .active {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  font-weight: bold;
 }
 
 
 /* article details page styling  */
 
-.articleDetailsPage-contentContainers {
+.articleDetailsPage-contentContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 30px;
   width: 100%;
+  max-width: 100%;
   height: 1300px;
+  min-height: 1300px;
   background-color: whitesmoke;
   margin-top: 10px;
 }
 
 .articleDetailsPage-mainContainer {
+  max-width: 65%;
+  min-height: 1200px;
   width: 65%;
   height: 1200px;
   margin-left: 50px;
@@ -1514,7 +1795,7 @@ gap: 30px;
   width: 440px;
   height: 555px;
   margin: 235px auto;
-  
+
 }
 
 .aboutYou-firstPageRightContainer {
@@ -1526,6 +1807,7 @@ gap: 30px;
 .aboutYou-firstPageRightImg {
   width: 760px;
   height: 1024px;
+  background-size: cover;
 }
 
 .AboutYou-firstPageBackButton {
@@ -1536,12 +1818,12 @@ gap: 30px;
 }
 
 .AboutYou-firstPageTopic {
-font-weight: 600;
-font-style: bold;
-line-height: 150%;
-size: 32px;
-letter-spacing: -3%;
-vertical-align: middle;
+  font-weight: 600;
+  font-style: bold;
+  line-height: 150%;
+  size: 32px;
+  letter-spacing: -3%;
+  vertical-align: middle;
 }
 
 .AboutYou-firstPageSubTopic {
@@ -1555,32 +1837,32 @@ vertical-align: middle;
 }
 
 .steps {
-width: 340px;
-height: 40px;
-opacity: 1;
-top: 489px;
-left: 120px;
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-gap: 50px;
-align-items: center;
-justify-content: center;
+  width: 340px;
+  height: 40px;
+  opacity: 1;
+  top: 489px;
+  left: 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 
 .step-dot {
-position: relative;
-display: flex;
-align-items: center;
-justify-content: center;
-width: 40px;
-height: 40px;
-opacity: 1;
-border-width: 1px; 
-border-radius: 50%;
-border: 1.5px solid rgba(132, 143, 172, 1);
-background-color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+  border-width: 1px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(132, 143, 172, 1);
+  background-color: white;
 }
 
 .step-span {
@@ -1595,84 +1877,84 @@ background-color: white;
 }
 
 .aboutYou-firstPageRadioButtonOne {
-width: 440px;
-height: 53px;
-opacity: 1;
-top: 569px;
-left: 120px;
-border-radius: 5px;
-padding-top: 13px;
-padding-right: 24px;
-padding-bottom: 13px;
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-gap: 275px;
-margin-top: 30px;
-cursor: pointer;
-border: none;
-background-color: white;
+  width: 440px;
+  height: 53px;
+  opacity: 1;
+  top: 569px;
+  left: 120px;
+  border-radius: 5px;
+  padding-top: 13px;
+  padding-right: 24px;
+  padding-bottom: 13px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 275px;
+  margin-top: 30px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
 }
 
 .aboutYou-firstPageRadioButtonTwo {
-width: 440px;
-height: 53px;
-opacity: 1;
-top: 569px;
-left: 120px;
-border-radius: 5px;
-padding-top: 13px;
-padding-right: 24px;
-padding-bottom: 13px;
-margin-top: 30px;
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;  
-gap: 300px;
-cursor: pointer;
-border: none;
-background-color: white;
+  width: 440px;
+  height: 53px;
+  opacity: 1;
+  top: 569px;
+  left: 120px;
+  border-radius: 5px;
+  padding-top: 13px;
+  padding-right: 24px;
+  padding-bottom: 13px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 300px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
 }
 
 .jobSeeker-label {
-padding-left: 10px;
-font-weight: 500;
-font-size: 15px;
-line-height: 150%;
-letter-spacing: -2%;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: -2%;
 }
 
 .recruiter-label {
-padding-left: 10px;
-font-weight: 500;
-font-size: 15px;
-line-height: 150%;
-letter-spacing: -2%;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: -2%;
 }
 
 
 .aboutYou-firstPageNextButton {
-width: 440px;
-height: 51px;
-opacity: 1;
-top: 739px;
-left: 120px;
-border-radius: 4px;
-padding-top: 12px;
-padding-right: 24px;
-padding-bottom: 12px;
-padding-left: 24px;
-background: rgba(50, 118, 250, 1);
-margin-top: 30px;
-font-weight: 600;
-font-size: 18px;
-border: none;
-line-height: 150%;
-letter-spacing: -2%;
-text-align: center;
-vertical-align: middle;
-color: rgba(255, 255, 255, 1);
-cursor: pointer;
+  width: 440px;
+  height: 51px;
+  opacity: 1;
+  top: 739px;
+  left: 120px;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  background: rgba(50, 118, 250, 1);
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  line-height: 150%;
+  letter-spacing: -2%;
+  text-align: center;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
 }
 
 .aboutYou-firstPageNextButton:hover {
@@ -1689,6 +1971,7 @@ cursor: pointer;
   flex-wrap: nowrap;
   gap: 0;
 }
+
 .aboutYou-secondPageLeftContainer {
   width: 680px;
   height: 1024px;
@@ -1729,118 +2012,118 @@ cursor: pointer;
 
 .aboutYou-secondPageRadioButtonOne {
   width: 440px;
-height: 53px;
-opacity: 1;
-top: 569px;
-left: 120px;
-border-radius: 5px;
-padding-top: 13px;
-padding-right: 24px;
-padding-bottom: 13px;
-/* padding-left: 24px; */
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-gap: 260px;
-margin-top: 30px;
-cursor: pointer;
-border: none;
-background-color: white;
+  height: 53px;
+  opacity: 1;
+  top: 569px;
+  left: 120px;
+  border-radius: 5px;
+  padding-top: 13px;
+  padding-right: 24px;
+  padding-bottom: 13px;
+  /* padding-left: 24px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 260px;
+  margin-top: 30px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
 }
 
 .aboutYou-secondPageRadioButtonTwo {
   width: 440px;
-height: 53px;
-opacity: 1;
-top: 569px;
-left: 120px;
-border-radius: 5px;
-padding-top: 13px;
-padding-right: 24px;
-padding-bottom: 13px;
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-gap: 120px;
-margin-top: 30px;
-cursor: pointer;
-border: none;
-background-color: white;
+  height: 53px;
+  opacity: 1;
+  top: 569px;
+  left: 120px;
+  border-radius: 5px;
+  padding-top: 13px;
+  padding-right: 24px;
+  padding-bottom: 13px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 120px;
+  margin-top: 30px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
 }
 
 .aboutYou-secondPageRadioButtonThree {
-width: 440px;
-height: 53px;
-opacity: 1;
-top: 569px;
-left: 120px;
-border-radius: 5px;
-padding-top: 13px;
-padding-right: 24px;
-padding-bottom: 13px;
-/* padding-left: 24px; */
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-gap: 170px;
-margin-top: 30px;
-cursor: pointer;
-border: none;
-background-color: white;
+  width: 440px;
+  height: 53px;
+  opacity: 1;
+  top: 569px;
+  left: 120px;
+  border-radius: 5px;
+  padding-top: 13px;
+  padding-right: 24px;
+  padding-bottom: 13px;
+  /* padding-left: 24px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 170px;
+  margin-top: 30px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
 }
 
 
 .aboutYou-secondPageRadioButtonFour {
-width: 440px;
-height: 53px;
-opacity: 1;
-top: 569px;
-left: 120px;
-border-radius: 5px;
-padding-top: 13px;
-padding-right: 24px;
-padding-bottom: 13px;
-/* padding-left: 24px; */
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-gap: 130px;
-margin-top: 30px;
-cursor: pointer;
-border: none;
-background-color: white;
+  width: 440px;
+  height: 53px;
+  opacity: 1;
+  top: 569px;
+  left: 120px;
+  border-radius: 5px;
+  padding-top: 13px;
+  padding-right: 24px;
+  padding-bottom: 13px;
+  /* padding-left: 24px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 130px;
+  margin-top: 30px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
 }
 
 .freshGraduate-label {
-padding-left: 10px;
-font-weight: 500;
-font-size: 15px;
-line-height: 150%;
-letter-spacing: -2%;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: -2%;
 }
 
 .workExperienceLessThanOneYear-label {
-padding-left: 10px;
-font-weight: 500;
-font-size: 15px;
-line-height: 150%;
-letter-spacing: -2%;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: -2%;
 }
 
 .workExperienceTwoToFourYears-label {
-padding-left: 10px;
-font-weight: 500;
-font-size: 15px;
-line-height: 150%;
-letter-spacing: -2%;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: -2%;
 }
 
 .workExperienceMoreThanFourYears-label {
-padding-left: 10px;
-font-weight: 500;
-font-size: 15px;
-line-height: 150%;
-letter-spacing: -2%;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: -2%;
 }
 
 .aboutYou-firstPageRightContainer {
@@ -1855,27 +2138,27 @@ letter-spacing: -2%;
 }
 
 .aboutYou-secondPageNextButton {
-width: 440px;
-height: 51px;
-opacity: 1;
-top: 739px;
-left: 120px;
-border-radius: 4px;
-padding-top: 12px;
-padding-right: 24px;
-padding-bottom: 12px;
-padding-left: 24px;
-background: rgba(50, 118, 250, 1);
-margin-top: 30px;
-font-weight: 600;
-font-size: 18px;
-border: none;
-line-height: 150%;
-letter-spacing: -2%;
-text-align: center;
-vertical-align: middle;
-color: rgba(255, 255, 255, 1);
-cursor: pointer;
+  width: 440px;
+  height: 51px;
+  opacity: 1;
+  top: 739px;
+  left: 120px;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  background: rgba(50, 118, 250, 1);
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  line-height: 150%;
+  letter-spacing: -2%;
+  text-align: center;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
 }
 
 .aboutYou-secondPageNextButton:hover {

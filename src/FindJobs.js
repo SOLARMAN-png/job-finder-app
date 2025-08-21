@@ -149,105 +149,6 @@ const FindJobsPage = () => {
           <button className="findJob-searchButton">Search</button>
         </div>
       </div>
-
-      {/* <div className="findJobs-contentContainer">
-        <div className="companyJobs-section">
-          <div className="companyJobs-header">
-            <h2 className="companyJobs-title">Jobs by Company</h2>
-            <button className="company-seeAll-button">See All</button>
-          </div>
-          <div className="companyJobs-list">
-            {filteredCompanies.map((company) => (
-              <div className="companyJob-item" key={company.id}>
-                <img src={company.logo} alt={company.name} />
-                <p>
-                  <b>{company.name}</b>
-                </p>
-                <p>Industry: {company.industry}</p>
-                <p>Location: {company.location}</p>
-                <button
-                  className="browse-jobs"
-                  onClick={() => navigate(`/jobdetails/${company.id}`)}
-                >
-                  Browse Jobs
-                </button>
-              </div>
-            ))}
-          </div>
-        </div>
-        <div className="filter-section">
-          <h2>Filter search</h2>
-          <button className="applyFilter-button" onClick={applyFilters}>
-            Apply
-          </button>
-          <div className="location-section">
-            <p className="findJobs-locationFilterOption">Location</p>
-            {FILTERS.location.map((loc) => (
-              <span key={loc}>
-                <label htmlFor={loc}>{loc}</label>
-                <input
-                  type="checkbox"
-                  id={loc}
-                  checked={selectedFilters.location.includes(loc)}
-                  onChange={() => handleFilterChange("location", loc)}
-                />
-              </span>
-            ))}
-          </div>
-          <div className="jobType-section">
-            <p className="findJobs-jobTypeFilterOption">Job Type</p>
-            {FILTERS.jobType.map((type) => (
-              <span key={type}>
-                <label htmlFor={type}>{type}</label>
-                <input
-                  type="checkbox"
-                  id={type}
-                  checked={selectedFilters.jobType.includes(type)}
-                  onChange={() => handleFilterChange("jobType", type)}
-                />
-              </span>
-            ))}
-          </div>
-          <div className="industry-section">
-            <p className="findJobs-industryFilterOption">Industry</p>
-            {FILTERS.industry.map((ind) => (
-              <span key={ind}>
-                <label htmlFor={ind}>{ind}</label>
-                <input
-                  type="checkbox"
-                  id={ind}
-                  checked={selectedFilters.industry.includes(ind)}
-                  onChange={() => handleFilterChange("industry", ind)}
-                />
-              </span>
-            ))}
-          </div>
-        </div>
-      </div> */}
-      {/* <div className="featuredJobs-section">
-        <div className="featuredJobs-header">
-          <h2 className="featuredJobs-title">Featured Jobs</h2>
-          <button className="jobs-seeAll-button">See All</button>
-        </div>
-        <div className="featuredJobs-list">
-          {filteredJobs.map((job) => (
-            <div className="featuredJob-item" key={job.id}>
-              <h3>{job.title}</h3>
-              <p>Type: {job.jobType}</p>
-              <p>Location: {job.location}</p>
-              <p>Salary: {job.salary}</p>
-              <p>Description: {job.description}</p>
-              <button
-                className="applyNow"
-                onClick={() => navigate(`/jobbreakdown/${job.id}`)}
-              >
-                Apply Now
-              </button>
-            </div>
-          ))}
-        </div>
-      </div> */}
-
       <div className="findJobs-container">
         <div className="findJobs-leftContentContainer">
           <div className="findJobs-CompaniesContainer">
@@ -308,7 +209,7 @@ const FindJobsPage = () => {
         </div>
         <div className="findJobs-rightContentContainer">
           <div className="filter-section">
-            <div className="filter-header">
+            <div className="filter-headerContainer">
               <h2 className="filter-sectionTitle">Filter search</h2>
               <button className="applyFilter-button" onClick={applyFilters}>
                 Apply

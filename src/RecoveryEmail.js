@@ -13,7 +13,7 @@ const RecoveryEmailPage = () => {
     <div className="recoveryEmail-container">
       <div className="recoveryEmail-leftContainer">
         <div className="recoveryEmail-leftContent">
-          <button className="AboutYou-firstPageBackButton">&#8592;</button>
+          <button className="recoveryEmail-BackButton">&#8592;</button>
           <h2 className="recoveryEmail-title">Recovery Password</h2>
           <p className="recoveryEmail-subtitle">
             Enter your email address to receive a link to reset <br />

@@ -85,14 +85,11 @@ const JobBreakdownPage = () => {
 
       <div className="jobBreakdown-content-container">
         <div className="jobBreakdown-leftSideContent">
-          <div className="jobBreakdown-imageContainer">
-            <img
-              src={company?.logo || ""}
-              alt={company?.name || ""}
-              className="jobBreakdown-image"
-            />
+          <div className="jobBreakdown-imageContainer"></div>
+          <div className="jobBreakdown-applyButtonContainer">
             <button className="jobBreakdown-applyButton">Apply Now</button>
           </div>
+
           <div className="jobBreakdown-summaryContainer">
             <h2 className="jobBreakdown-topic">Job Summary</h2>
             <div className="jobBreakdown-details">
